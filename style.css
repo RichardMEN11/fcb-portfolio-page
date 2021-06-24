@@ -99,3 +99,38 @@ button {
   margin-top: 50px;
   font-weight: 400;
 }
+
+/* CONTACT 📞*/
+.contact {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.contact-tile:first-child,
+.contact-tile:nth-child(2) {
+  border-right: 1.5px solid #f0f0f0;
+}
+
+.contact-tile:not(:first-child) {
+  padding-left: 40px;
+}
+
+.contact-tile {
+  padding-right: 60px;
+}
+
+.contact-tile > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-tile > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 5px;
+}
