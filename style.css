@@ -2,6 +2,18 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #383838;
 }
 
 /* Styling only the navbar */
@@ -24,10 +36,66 @@ nav > a {
   text-decoration: none;
   color: #f12050;
   font-size: 18px;
-  font-family: 'Sarabun', sans-serif;
   transition: all 0.1s ease-in;
 }
 
 nav > a:hover {
   transform: scale(1.05);
+}
+
+/* MAIN PART ⚡️ */
+main {
+  min-height: 90vh;
+}
+
+.about {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  margin-left: -8px;
+  margin-top: -15px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.text-highlighted {
+  color: #f12050;
+}
+
+button {
+  background-color: #f12050;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-top: 50px;
+  font-weight: 400;
 }
