@@ -1,0 +1,33 @@
+/* Reset the default browser styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling only the navbar */
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling the logo */
+nav > .logo {
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #f12050;
+  font-size: 18px;
+  font-family: 'Sarabun', sans-serif;
+  transition: all 0.1s ease-in;
+}
+
+nav > a:hover {
+  transform: scale(1.05);
+}
