@@ -1,0 +1,136 @@
+/* Reset the default browser styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #383838;
+}
+
+/* Styling only the navbar */
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling the logo */
+nav > .logo {
+  font-family: 'Abhaya Libre', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #f12050;
+  font-size: 18px;
+  transition: all 0.1s ease-in;
+}
+
+nav > a:hover {
+  transform: scale(1.05);
+}
+
+/* MAIN PART ⚡️ */
+main {
+  min-height: 90vh;
+}
+
+.about {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  margin-left: -8px;
+  margin-top: -15px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.text-highlighted {
+  color: #f12050;
+}
+
+button {
+  background-color: #f12050;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+/* CONTACT 📞*/
+.contact {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.contact-tile:first-child,
+.contact-tile:nth-child(2) {
+  border-right: 1.5px solid #f0f0f0;
+}
+
+.contact-tile:not(:first-child) {
+  padding-left: 40px;
+}
+
+.contact-tile {
+  padding-right: 60px;
+}
+
+.contact-tile > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-tile > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 5px;
+}
